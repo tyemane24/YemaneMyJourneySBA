@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel Log-About</title>
+<link rel="stylesheet" type=text/css href="../CSS/About.css">
+<script src="../JS/About.js"></script>
+<style>
+
+
+
+#side, #bottom{
+  font-family: arial, sans-serif;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+	<div id="navbar">
+		<nav class="menu">
+			<ul>
+				<li><a href="../HTML/Index.html">Home</a></li>
+				<li><a href="../HTML/About.html">About</a></li>
+				<li><a href="">Customer Reviews</a></li>
+				<li><a href="../HTML/Contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="content">
+		<h1>Background and Features</h1>
+		<Br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+			ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+			aliquip ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+			culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in
+			culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in
+			culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		
+		
+
+		<Br>
+		<br>
+		
+		<br>
+		<br>
+		<p style="text-align: center; font-size:25px;"><b>Soon To Come Features</b>
+		
+		<br>
+		
+		<div class="slideshow-container">
+
+			<div class="Slides fade">
+				<img
+					src="../images/route.jpg"
+					style="width: 70%; height: 20%">
+
+			</div>
+
+			<div class="Slides fade">
+				<img
+					src="../images/budget.jpg"
+					style="width: 70%; height: 20%">
+
+			</div>
+
+			<div class="Slides fade">
+				<img
+					src="../images/contacts.jpg"
+					style="width: 70%; height: 20%">
+
+			</div>
+
+			<script>
+				window.onload(startSlides());
+			</script>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next"
+				onclick="plusSlides(1)">❯</a>
+
+		</div>
+		<br>
+		<br>
+		<div style="text-align: center">
+			<span class="dot" onclick="currentSlide(1)"></span> <span class="dot"
+				onclick="currentSlide(2)"></span> <span class="dot"
+				onclick="currentSlide(3)"></span>
+		</div>
+
+
+	</div>
+
+
+	<div id="side">
+
+
+		<h2>Our Owners</h2><br>
+
+<table class="owners_table">
+  <tr>
+    <th>Name</th>
+    <th>Education</th>
+    <th>State</th>
+  </tr>
+  <tr>
+    <td>Tsion Yemane</td>
+    <td>Towson University</td>
+    <td>U.S.A.</td>
+  </tr>
+  <tr>
+    <td>Lisa Smith</td>
+    <td>University of Virginia</td>
+    <td>Virginia</td>
+  </tr>
+  <tr>
+    <td>John Patterson</td>
+    <td>Harvard University</td>
+    <td>Massachussetts</td>
+  </tr>
+</table> <Br><br><Br>
+
+<p><b>Click on the button to open the dropdown menu and get navigated to our other pages.</b></p><Br>
+
+<div class="dropdown">
+  <button onclick="Dropdown()" class="dropbutton">Dropdown</button>
+  <div id="myDropdown" class="dropdown_list">
+    <a href="../HTML/Index.html">Home</a>
+    <a href="../HTML/About.html">About</a>
+    <a href="../HTML/Contact.html">Contact</a>
+  </div>
+</div>
+
+	</div>
+
+	<div id="bottom">
+	<h2>Travel Budget Planning</h2><br><br>
+		<iframe width="400" height="250" src="https://www.youtube.com/embed/3zgYQe4EkTY"
+		 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+
+
+
+
+
+	<footer>
+		<p>&copy Tsion Yemane Development 2022. All Rights Reserved.</p>
+	</footer>
+
+</body>
+</html>

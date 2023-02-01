@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel Log-Contact</title>
+<link rel="stylesheet" type=text/css href="../CSS/Contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/ea262b22bf.js" crossorigin="anonymous"></script>
+<script src="../JS/Contact.js"></script>
+</head>
+<body>
+	<div id="navbar">
+		<nav class="menu">
+			<ul>
+				<li><a href="../HTML/Index.html">Home</a></li>
+				<li><a href="../HTML/About.html">About</a></li>
+				<li><a href="">Customer Reviews</a></li>
+				<li><a href="../HTML/Contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="content">
+
+		<h1>Talk To Us</h1>
+		<Br><Br>
+		<form id="user_form" name="user_form" action="#" onsubmit="sendMessage()">
+			<br />
+			<label for="username"></label><input id="username" type="text"
+				name="username" placeholder="Your name please" /> <br /> <br /><Br>
+			<label for="email"></label> <input id="email" type="email"
+				name="email" placeholder="A contact email"/> <br /> <br /> <br>
+				
+				<label for="project"></label>
+				<select id="project"
+				name="project">
+				<option value="none">Question</option>
+				<option value="Suggestion">Suggestion</option>
+				<option value ="General Message">General Message</option>
+				<option value ="Other">Other</option>
+				</select>
+				<br/><br/><br>
+				<label for="help"></label><input id="help" type="text" name="text" placeholder ="Type your message here"/>
+				<br/>
+				<br/><br/><Br><Br><Br>
+				<input id="sub" type="Submit" name="Submit" value="Send message" />
+		</form>
+	</div>
+
+	<div id="side">
+	<h1>Let's get in touch</h1><br>
+	<h3>We are open to any suggestions or to answer any of your questions</h3><br><br>
+	<p>Our Information<p>
+	<ul id ="contact_info">
+			<li><a href="#" class='fas fa-phone'></a><b>    Phone: </b>555-555-5555</li>
+			<li><a href="#" class='fas fa-paper-plane'></a><b>    Email: </b>tsionyemane@gmail.com</li>
+			<li><a href="#" class='fas fa-building'></a><b>    Address: </b>345 PerScholas Way </li>
+			
+		</ul>
+	<br><br><Br><br><br>
+		<p>Connect With Us On Social Media<p>
+		<ul id="social_media">
+			<li><a href="#" class="fa fa-instagram"></a> Follow us on Instagram</li>
+			<li><a href="#" class="fa fa-facebook"></a> Follow us on FaceBook</li>
+			<li><a href="#" class="fa fa-twitter"></a> Follow us on Twitter</li>
+			
+		</ul>
+	</div>
+
+
+	<footer>
+		<p>&copy Tsion Yemane Development 2022. All Rights Reserved.</p>
+	</footer>
+
+</body>
+</html>

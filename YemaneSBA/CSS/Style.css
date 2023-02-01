@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 40px;
+}
+
+.menu {
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+	overflow: hidden;
+}
+
+.menu ul li {
+	float: none;
+	display: inline-block;
+	border-right: 1px solid #bbb;
+}
+
+.menu ul li:nth-child(1) {
+	float: left;
+}
+
+.menu ul li:nth-child(2) {
+	float: left;
+}
+
+.menu ul li:nth-child(3) {
+	float: right;
+}
+
+.menu ul li:nth-child(4) {
+	float: right;
+}
+
+.menu ul li a {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+	background-color: #111;
+}
+
+#navbar {
+	width: 100%;
+	position: relative;
+	background: #333;
+	height: 50px;
+	display: flex;
+	top: 0;
+	position:fixed;
+	z-index:1;
+}
+#background_img{
+	width:100%;
+	height:650px;
+	
+}
+
+#background2 {
+	background-color:#5c9bdc;
+	color:white;
+	height:300px;
+}
+
+#container1{
+	position:relative;
+}
+ 
+ #logo {
+ position:absolute;
+top:30%;
+right:45%;
+width:100px;
+height:100px;
+ }
+ #logo2{
+ position:absolute;
+top:30%;
+right:50%;
+width:100px;
+height:100px;
+ }
+ #logo3{
+ position:absolute;
+top:30%;
+right:40%;
+width:100px;
+height:100px;
+ }
+ 
+ #title{
+ position:absolute;
+top:45%;
+right:49%;
+width:100px;
+height:100px;
+color:white;
+white-space:nowrap;
+font-family: "copperplate",fantasy;
+
+ }
+
+#background2 p {
+	font-family: Garamond, Serif;
+	font-size: 20px;
+	text-align:center;
+	text-indent: 50px;
+}
+
+#bottom_container{
+	background-color:#797979;
+	color:text;
+	height:550px;
+}
+#login{
+	padding:50px;
+	margin:auto;
+	background-color:#5e5e5e;
+	width:500px;
+	height:550px;
+	right:100px;
+	position:absolute;
+	box-shadow: 5px 0px black;
+	text-align:center;
+}
+
+#user_icon{
+	object-position:top;
+}
+
+
+#ForgotPassword {
+	color: red;
+	font-size:15px;
+	top:50%;
+}
+
+#username, #password{
+	padding: 10px;
+	margin: auto;
+	background-color: LightGrey;
+}
+#create_acct{
+	padding:50px;
+	margin:auto;
+	background-color:#5e5e5e;
+	width:500px;
+	height:550px;
+	left:100px;
+	position:absolute;
+	box-shadow: 5px 0px black;
+}
+
+#create_acct form{
+	font-size:20px;
+}
+
+.sub{
+	background-color: Blue;
+	color: white;
+	padding: 10px;
+}
+footer{
+	height:20px;
+	font-size: 18px;
+	text-align:center;
+}
